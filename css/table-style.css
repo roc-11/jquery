@@ -1,3 +1,11 @@
+ .underline {
+     text-decoration: underline;
+ }
+
+ .border {
+     border: 1px solid #ccc;
+ }
+
  td,
  th {
      width: 5rem;
@@ -11,11 +19,20 @@
      border-color: white;
  }
 
+ th.highlight {
+     background: lightblue;
+     border-color: white;
+ }
+
  body {
      padding: 1rem;
      font-family: Roboto;
  }
 
- .odd {
-     background-color: #000;
- }
+.odd {
+    background-color: #E84610;
+}
+
+.even {
+    background-color: #C65353;
+}
